@@ -50,7 +50,7 @@ function Input() {
             if (d) payload.d = parseFloat(d);
 
             // Call the API
-            const response = await fetch('http://localhost:5000/estimate', {
+            const response = await fetch('https://cocomo-backend.vercel.app/estimate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
