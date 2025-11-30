@@ -2,7 +2,7 @@
 
 A modern web-based calculator for software project estimation using the **Constructive Cost Model (COCOMO)**. This tool helps project managers and software engineers estimate development effort, time, and team size based on project characteristics.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -18,7 +18,7 @@ A modern web-based calculator for software project estimation using the **Constr
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 The COCOMO (Constructive Cost Model) is an algorithmic software cost estimation model developed by Barry Boehm. This tool provides a user-friendly interface to calculate:
 
@@ -38,7 +38,7 @@ The calculator supports all three COCOMO models with customizable coefficients a
 - 🎯 **Visual Feedback** - Color-coded modes and intuitive result cards
 - 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework:** React 19.1.1
 - **Build Tool:** Vite 7.1.7
@@ -47,7 +47,7 @@ The calculator supports all three COCOMO models with customizable coefficients a
 - **API Communication:** Fetch API
 - **Linting:** ESLint 9.36.0
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
 - **npm** (v9 or higher)
 - **Backend API** running on `http://localhost:5000` (see [API Integration](#api-integration))
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -76,7 +76,7 @@ Before you begin, ensure you have the following installed:
 4. **Open your browser:**
    Navigate to `http://localhost:5173` (or the port shown in your terminal)
 
-## 📖 Usage
+## Usage
 
 ### Basic Estimation
 
@@ -118,7 +118,7 @@ You can override the default COCOMO coefficients:
 - Effort: ~30 person-months
 - Team Size: ~5 people
 
-## 📐 COCOMO Models
+## COCOMO Models
 
 ### Organic Mode
 - **Project Type:** Small to medium, well-understood applications
@@ -176,7 +176,7 @@ The application handles:
 - Invalid input validation
 - Server errors with user-friendly messages
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 COCOMO-estimation-tool/
@@ -199,7 +199,7 @@ COCOMO-estimation-tool/
 └── README.md           # This file
 ```
 
-## 🎬 Available Scripts
+## Available Scripts
 
 ### Development
 
@@ -229,7 +229,7 @@ npm run lint
 ```
 Run ESLint to check code quality and style issues.
 
-## ⚙️ Configuration
+## Configuration
 
 ### Vite Configuration
 
@@ -249,7 +249,7 @@ const response = await fetch('http://your-api-url/estimate', {
 });
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -270,18 +270,7 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- **Namit210** - [GitHub Profile](https://github.com/Namit210)
-
-## 🙏 Acknowledgments
-
-- Barry Boehm for the COCOMO model
-- React team for the amazing framework
-- Vite team for the blazing-fast build tool
-- Bootstrap team for the responsive CSS framework
-
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
